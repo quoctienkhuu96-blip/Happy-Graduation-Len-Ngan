@@ -1,0 +1,52 @@
+{
+  "hash": "153f7de9",
+  "configHash": "2e3d14ba",
+  "lockfileHash": "7b014cbf",
+  "browserHash": "33b648b8",
+  "optimized": {
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "88d6e457",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "20cea5da",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "d828b7e1",
+      "needsInterop": true
+    },
+    "gsap": {
+      "src": "../../node_modules/gsap/index.js",
+      "file": "gsap.js",
+      "fileHash": "d077e996",
+      "needsInterop": false
+    },
+    "gsap/ScrollToPlugin": {
+      "src": "../../node_modules/gsap/ScrollToPlugin.js",
+      "file": "gsap_ScrollToPlugin.js",
+      "fileHash": "99d9aaa0",
+      "needsInterop": false
+    },
+    "lucide-react": {
+      "src": "../../node_modules/lucide-react/dist/esm/lucide-react.js",
+      "file": "lucide-react.js",
+      "fileHash": "50fe685c",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-HJKZ6PHL": {
+      "file": "chunk-HJKZ6PHL.js"
+    },
+    "chunk-G3PMV62Z": {
+      "file": "chunk-G3PMV62Z.js"
+    }
+  }
+}

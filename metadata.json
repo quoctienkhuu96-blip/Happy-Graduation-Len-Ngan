@@ -1,0 +1,6 @@
+{
+  "name": "Velorah",
+  "description": "A luxury cinematic single-page hero section with fullscreen looping background video, glassmorphic navigation, and elegant typography.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
