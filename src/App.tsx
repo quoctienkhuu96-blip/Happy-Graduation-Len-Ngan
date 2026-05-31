@@ -13,7 +13,8 @@ import {
   Clock,
   MapPin,
   Car,
-  Phone
+  Phone,
+  ExternalLink
 } from "lucide-react";
 
 // Register GSAP ScrollToPlugin
@@ -735,19 +736,16 @@ export default function App() {
                   <div className="text-xs text-neutral-300 mt-0.5 leading-relaxed">
                     (Sau đó đi bộ vào khu vực tổ chức)
                   </div>
-                  {/* Google Maps Embed */}
-                  <div className="mt-3 w-full h-[200px] overflow-hidden rounded-xl border border-white/10 shadow-inner">
-                    <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.558706978572!2d106.65042230914399!3d10.800813089305013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752937ddf0706b%3A0x833dda1f4454e779!2zTE9UVEUgTWFydCBUw6JuIELDrG5o!5e1!3m2!1svi!2s!4v1780248024261!5m2!1svi!2s"
-                      width="100%"
-                      height="100%"
-                      style={{ border: 0 }}
-                      allowFullScreen={true}
-                      loading="lazy"
-                      referrerPolicy="no-referrer-when-downgrade"
-                      className="opacity-80 hover:opacity-100 transition-opacity duration-300"
-                    />
-                  </div>
+                  {/* Google Maps External Link */}
+                  <a
+                    href="https://www.google.com/maps/place/LOTTE+Mart+T%C3%A2n+B%C3%ACnh/@10.800813,106.650422,17z"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-3 inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white/10 hover:bg-white/15 text-white hover:text-white transition-all border border-white/10 hover:border-white/20 active:scale-[0.98] text-xs font-mono tracking-wider uppercase font-semibold cursor-pointer shadow-md"
+                  >
+                    <span>Xem Bản đồ</span>
+                    <ExternalLink className="w-3.5 h-3.5" />
+                  </a>
                 </div>
               </div>
 
