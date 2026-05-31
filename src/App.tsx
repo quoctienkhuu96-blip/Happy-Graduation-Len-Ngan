@@ -701,7 +701,7 @@ export default function App() {
                   <Calendar className="w-5 h-5 text-white opacity-95 flex-shrink-0" />
                   <div>
                     <div className="text-[10px] text-neutral-400 uppercase tracking-wider font-mono">Ngày tổ chức:</div>
-                    <div className="font-semibold text-neutral-200">07.06.2026</div>
+                    <div className="font-semibold text-neutral-200"> Chủ Nhật - 07.06.2026</div>
                   </div>
                 </div>
 
@@ -884,7 +884,7 @@ export default function App() {
           <div className="hidden sm:flex items-center space-x-3 text-[10px] sm:text-xs tracking-widest text-white font-mono bg-zinc-950/85 border border-white/10 p-2.5 px-4 rounded-full backdrop-blur-md shadow-lg select-none">
             <span>LÉN NGÂN // GRADUATION</span>
             <span className="w-1.5 h-1.5 rounded-full bg-white inline-block animate-pulse" />
-            <span>Chủ nhật - 07.06.2026)</span>
+            <span>Chủ nhật 07.06.2026</span>
           </div>
 
 
