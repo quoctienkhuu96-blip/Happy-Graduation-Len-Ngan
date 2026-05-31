@@ -729,11 +729,24 @@ export default function App() {
               {/* Parking Lot */}
               <div className="flex items-start gap-3 p-4 rounded-xl bg-black/35 backdrop-blur-sm border border-white/5">
                 <Car className="w-5 h-5 text-white opacity-95 mt-1 flex-shrink-0" />
-                <div>
+                <div className="w-full">
                   <div className="text-[10px] text-neutral-400 uppercase tracking-wider font-mono">Nơi gửi xe:</div>
                   <div className="font-semibold text-neutral-200 text-sm">Lotte Cộng Hòa</div>
                   <div className="text-xs text-neutral-300 mt-0.5 leading-relaxed">
                     (Sau đó đi bộ vào khu vực tổ chức)
+                  </div>
+                  {/* Google Maps Embed */}
+                  <div className="mt-3 w-full h-[200px] overflow-hidden rounded-xl border border-white/10 shadow-inner">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.558706978572!2d106.65042230914399!3d10.800813089305013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752937ddf0706b%3A0x833dda1f4454e779!2zTE9UVEUgTWFydCBUw6JuIELDrG5o!5e1!3m2!1svi!2s!4v1780248024261!5m2!1svi!2s"
+                      width="100%"
+                      height="100%"
+                      style={{ border: 0 }}
+                      allowFullScreen={true}
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      className="opacity-80 hover:opacity-100 transition-opacity duration-300"
+                    />
                   </div>
                 </div>
               </div>
