@@ -721,7 +721,7 @@ export default function App() {
                   <div className="text-[10px] text-neutral-400 uppercase tracking-wider font-mono">Địa điểm:</div>
                   <div className="font-semibold text-neutral-200 text-sm">Học viện Hàng không Việt Nam – Cơ sở 2</div>
                   <div className="text-xs text-neutral-300 mt-1 leading-relaxed">
-                    18A/1 Cộng Hòa, Phường Tân Sơn Nhất, Quận Tân Bình, TP. Hồ Chí Minh.
+                    18A/1 Cộng Hòa, Phường Tân Sơn Nhất, TP. Hồ Chí Minh.
                   </div>
                 </div>
               </div>
@@ -884,7 +884,7 @@ export default function App() {
           <div className="hidden sm:flex items-center space-x-3 text-[10px] sm:text-xs tracking-widest text-white font-mono bg-zinc-950/85 border border-white/10 p-2.5 px-4 rounded-full backdrop-blur-md shadow-lg select-none">
             <span>LÉN NGÂN // GRADUATION</span>
             <span className="w-1.5 h-1.5 rounded-full bg-white inline-block animate-pulse" />
-            <span>07.06.2026</span>
+            <span>Chủ nhật - 07.06.2026)</span>
           </div>
 
 
